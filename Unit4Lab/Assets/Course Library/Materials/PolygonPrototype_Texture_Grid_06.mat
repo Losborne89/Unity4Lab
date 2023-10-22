@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PolygonPrototype_Texture_01
+  m_Name: PolygonPrototype_Texture_Grid_06
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -41,19 +41,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1.07, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Texture: {fileID: 2800000, guid: 7bab9ac1487e10c40b9ed77d4c551e04, type: 3}
+        m_Scale: {x: -2.15, y: 8.78}
+        m_Offset: {x: -1.5, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 86cb957541c7c8542a6306ffb82e6833, type: 3}
-        m_Scale: {x: 1.07, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Texture: {fileID: 2800000, guid: bbc54c0e722a346408cd09eef6dc0cd6, type: 3}
+        m_Scale: {x: -2.15, y: 8.78}
+        m_Offset: {x: -1.5, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 7bab9ac1487e10c40b9ed77d4c551e04, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -67,9 +67,9 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.46
+    - _Glossiness: 1
     - _GlossyReflections: 1
-    - _Metallic: 0.61
+    - _Metallic: 0.85
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -79,6 +79,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0, g: 1, b: 0, a: 1}
-    - _EmissionColor: {r: 0.005206547, g: 0.37894556, b: 0.50526077, a: 1}
+    - _Color: {r: 0, g: 0.8666667, b: 1, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
