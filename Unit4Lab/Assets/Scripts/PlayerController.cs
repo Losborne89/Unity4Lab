@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     private GameObject focalPoint;
     public GameObject powerupIndicator;
 
-    private float speed = 1f;
+    private float speed = 400f;
     private float powerupStrength = 15f;
 
     public bool hasPowerUp = false;
@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
     {
         float forwardInput = Input.GetAxis("Vertical");
 
-        playerRb.AddForce(focalPoint.transform.forward * speed * forwardInput);
+        playerRb.AddForce(focalPoint.transform.forward * speed * forwardInput * Time.deltaTime);
 
         powerupIndicator.transform.position = transform.position + new Vector3(0, -0.5f, 0); // Sets position of powerup to players position
     }
